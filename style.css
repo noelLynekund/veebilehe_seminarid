@@ -43,11 +43,16 @@ table {
 	background-color : lightblue;
   }
 
-.molemad{
-
-}
-
-.veerg{
-	width: 50%; 
-	float: left;
-}
+  .molemad {
+	display: flex;
+  }
+  
+  .veerg {
+	flex: 1;
+	padding: 20px;
+	box-sizing: border-box;
+  }
+  
+  .veerg:not(:last-child) {
+	border-right: 1px solid #ddd;
+  }
