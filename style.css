@@ -1,7 +1,53 @@
 body {
-	background-color: light gray;
+	background-color : lightgray;
 }
 
 h1{
-	color: blue; font-size: 6100; 
+	color : blue;
+	font-size : 60px;
+	font-family : "Comic Sans MS"; 
 }	
+
+p{
+	color : red;
+	font-size : 30px;
+	font-family : "Calibri";
+}
+
+p{
+	color : red;
+	font-size : 30px;
+	font-family : "Calibri";
+	text-align : center;
+}
+
+img{
+	border :black solid 3px;
+}
+
+table {
+	border-collapse : collapse;
+	width : 100%;
+  }
+  
+  th, td {
+	padding : 10px;
+	border : lightcoral solid 1px;
+  }
+  
+  tr:nth-child(even) {
+	background-color : lightpink;
+  }
+  
+  tr:hover {
+	background-color : lightblue;
+  }
+
+.molemad{
+
+}
+
+.veerg{
+	width: 50%; 
+	float: left;
+}
